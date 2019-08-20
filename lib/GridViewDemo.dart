@@ -27,3 +27,35 @@ class GridViewDemo extends StatelessWidget {
     );
   }
 }
+
+class GridViewLayout extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    List<Container> _buildGridTitleList(int count) {
+      return new List<Container>.generate(
+          count,
+          (int index) => new Container(
+                child: new Image.asset('images/${index + 1}.png'),
+              ));
+    }
+
+    Widget buildGrid() {
+      return new GridView.extent(
+        maxCrossAxisExtent: 150.0,
+        padding: const EdgeInsets.all(4.0),
+        mainAxisSpacing: 4.0,
+        crossAxisSpacing: 4.0,
+        children: _buildGridTitleList(9),
+      );
+    }
+
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text('GridView布局'),
+      ),
+      body: new Center(
+        child: buildGrid(),
+      ),
+    );
+  }
+}
