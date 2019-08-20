@@ -9,11 +9,13 @@ import 'GridViewDemo.dart';
 import 'LayoutDemo.dart';
 import 'TopAppBarDemo.dart';
 import 'BottomAppBarDemo.dart';
+import 'RowDemo.dart';
+import 'ColumnDemo.dart';
 
 void main() {
   runApp(new MaterialApp(
     title: 'Text Widget Demo',
-    home: new DidiSampleState(),
+    home: new ColumnDemo(),
   ));
 }
 
