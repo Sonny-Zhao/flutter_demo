@@ -15,7 +15,7 @@ import 'ColumnDemo.dart';
 void main() {
   runApp(new MaterialApp(
     title: 'Text Widget Demo',
-    home: new GridViewLayout(),
+    home: new ListViewLayout(),
   ));
 }
 
