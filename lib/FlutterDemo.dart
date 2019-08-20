@@ -13,11 +13,12 @@ import 'RowDemo.dart';
 import 'ColumnDemo.dart';
 import 'StackDemo.dart';
 import 'CardDemo.dart';
+import 'PositionedDemo.dart';
 
 void main() {
   runApp(new MaterialApp(
     title: 'Text Widget Demo',
-    home: new CardDemo(),
+    home: new PositionedDemo(),
   ));
 }
 
