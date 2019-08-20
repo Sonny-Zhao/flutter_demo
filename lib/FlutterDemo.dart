@@ -12,11 +12,12 @@ import 'BottomAppBarDemo.dart';
 import 'RowDemo.dart';
 import 'ColumnDemo.dart';
 import 'StackDemo.dart';
+import 'CardDemo.dart';
 
 void main() {
   runApp(new MaterialApp(
     title: 'Text Widget Demo',
-    home: new StackDemo(),
+    home: new CardDemo(),
   ));
 }
 
