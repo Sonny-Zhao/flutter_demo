@@ -15,11 +15,12 @@ import 'StackDemo.dart';
 import 'CardDemo.dart';
 import 'PositionedDemo.dart';
 import 'GestureDetectorDemo.dart';
+import 'CustomFontDemo.dart';
 
 void main() {
   runApp(new MaterialApp(
     title: 'Text Widget Demo',
-    home: new DismissibleDemo(),
+    home: new CustomFontDemo(),
   ));
 }
 
