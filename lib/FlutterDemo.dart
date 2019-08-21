@@ -14,11 +14,12 @@ import 'ColumnDemo.dart';
 import 'StackDemo.dart';
 import 'CardDemo.dart';
 import 'PositionedDemo.dart';
+import 'GestureDetectorDemo.dart';
 
 void main() {
   runApp(new MaterialApp(
     title: 'Text Widget Demo',
-    home: new ScrollListView(),
+    home: new DismissibleDemo(),
   ));
 }
 
