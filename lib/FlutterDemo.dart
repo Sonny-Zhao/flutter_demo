@@ -18,11 +18,13 @@ import 'GestureDetectorDemo.dart';
 import 'CustomFontDemo.dart';
 import 'PageRouteDemo.dart';
 import 'PageRouteReturnDataDemo.dart';
+import 'HeroDemo.dart';
+import 'AnimDemo.dart';
 
 void main() {
   runApp(new MaterialApp(
     title: 'Text Widget Demo',
-    home: new FirstPage(),
+    home: new AnimDemo(),
   ));
 }
 
