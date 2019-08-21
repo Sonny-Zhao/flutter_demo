@@ -4,8 +4,9 @@ Flutter一些基础的组件测试Demo.
 Flutter入门级Demo： 
 主要包括一些常用基础组件和常用布局的使用
 
-  文本组件:TextDemo.dart;\n
-  图片组件:ImageDemo.dart;\n
+  文本组件:TextDemo.dart;
+  
+  图片组件:ImageDemo.dart;
   容器组件:ContainerDemo.dart;
   基础列表组件:ListViewDemo.dart;
   水平列表:HorizontalListViewDemo.dart
